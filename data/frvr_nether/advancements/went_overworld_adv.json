@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "to_overworld": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "overworld",
+                "from": "the_nether"
+            }
+        }
+    },
+    "rewards": {
+        "function": "frvr_nether:went_overworld_func"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "in_nether": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_nether"
+            }
+        }
+    },
+    "rewards": {
+        "function": "frvr_nether:set_in_nether"
+    }
+}
